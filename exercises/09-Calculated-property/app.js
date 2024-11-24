@@ -10,6 +10,9 @@ class Person{
 	    return Math.abs(ageDate.getUTCFullYear() - 1970);
 	}
 	
+	canDrinkAlcohol(){
+		return  this.getAge() >= 21;
+	}
 	
 }
 
